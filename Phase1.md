@@ -1,4 +1,4 @@
-# The phase1 for Attack Lab
+# Attack Lab
 
 ## Goal
 Since we're using buffer overflow, the function we will attack is the one who cal Gets(buf), which is the <*getbuf*> funtion. Specifically, we need to change the return address for <*getbuf*>.
