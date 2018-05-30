@@ -12,6 +12,8 @@ And since function blur is called 20 times, it seems not a good idea to paralliz
 (1) Everything declared outside the **#pragma omp parallel** will be shared be default.
 (2) #pragama omp parallel will parallize the block after it if no "{ }" specified.
 
+If the load is not well balanced, the performance will decrease drastically.
+
 
 ### Cache
 Change the order of loop to z, y, x to improve space locality
